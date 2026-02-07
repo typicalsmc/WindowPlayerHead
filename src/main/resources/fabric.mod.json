@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "windowplayerhead",
+  "version": "${version}",
+  "name": "WindowPlayerHead",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/windowplayerhead/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.typical.windowplayerhead.client.WPHModClient"
+    ],
+    "main": [
+      "me.typical.windowplayerhead.WPHMod"
+    ]
+  },
+  "mixins": [
+    "windowplayerhead.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
