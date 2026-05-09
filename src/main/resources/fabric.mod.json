@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/windowplayerhead/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -18,11 +18,10 @@
     ]
   },
   "mixins": [
-    "windowplayerhead.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": "*",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=1.21"
   }
 }
